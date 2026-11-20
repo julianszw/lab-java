@@ -1,14 +1,12 @@
 # Concurrency
 
-Práctica de concurrencia en Java.
+Concurrency practice in Java.
 
-| Módulo | Contenido |
+| Module | Contents |
 |---|---|
-| `01-threads-basics` | Threads y `Runnable` |
-| `02-concurrency-demo` | Segunda demo de concurrencia |
+| `01-threads-basics` | Threads and `Runnable` |
+| `02-concurrency-demo` | A second concurrency demo |
 
-Proyecto integrador: [`order-processing-simulator`](../../../projects/order-processing-simulator/), que integra `BlockingQueue`, `ExecutorService`, atómicos y shutdown ordenado.
+Planned: `BlockingQueue`, `ExecutorService`, atomics and graceful shutdown.
 
-```bash
-mvn compile
-```
+Build: `mvn compile`

@@ -1,13 +1,9 @@
 # Design Patterns
 
-Implementaciones de patrones de diseño en Java, un paquete por patrón en `src/main/java/com/patterns/`.
+Java implementations of design patterns, one package per pattern under `src/main/java/com/patterns/`.
 
-| Patrón | Paquete |
+| Pattern | Package |
 |---|---|
-| Observer | `observer` (`Subject`, `Observer`, `CanalDeNoticias`, suscriptores email y móvil) |
+| Observer | `observer` (`Subject`, `Observer`, news channel, email and mobile subscribers) |
 
-```bash
-mvn compile
-```
-
-Requiere JDK 21 y Maven.
+Build: `mvn compile`. Requires JDK 21 and Maven.

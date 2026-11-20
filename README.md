@@ -1,17 +1,29 @@
-# Java
+# lab-java
 
-Leer en orden, como capítulos de un libro: de lo más básico a lo más complejo.
+A Java study path in chapters, from the basics to advanced topics. Hands-on code, exercises and demos.
 
-| Capítulo | Contenido |
+Read in order, like the chapters of a book: from the simplest to the most complex.
+
+| Chapter | Contents |
 |---|---|
-| [`01-fundamentals`](01-fundamentals/) | Base del lenguaje: básicos, bucles, arrays, strings |
-| [`02-oop`](02-oop/) | Diseño de clases: inmutabilidad y, a futuro, herencia, polimorfismo, SOLID |
-| [`03-algorithms`](03-algorithms/) | Búsqueda y ordenamiento |
-| [`04-design-patterns`](04-design-patterns/) | Patrones de diseño (Observer, …) |
-| [`05-concurrency`](05-concurrency/) | Threads, `Runnable` y `java.util.concurrent` |
+| [`01-fundamentals`](01-fundamentals/) | Language basics: core concepts, loops, arrays, strings |
+| [`02-oop`](02-oop/) | Class design: immutability and, later on, inheritance, polymorphism, SOLID |
+| [`03-algorithms`](03-algorithms/) | Searching and sorting |
+| [`04-design-patterns`](04-design-patterns/) | Design patterns (Observer, …) |
+| [`05-concurrency`](05-concurrency/) | Threads, `Runnable` and `java.util.concurrent` |
 
-Fuera de la secuencia, para practicar lo anterior:
-- Proyecto integrador de concurrencia: [`order-processing-simulator`](../../projects/order-processing-simulator/)
-- Katas de libros: [`effective-java`](https://github.com/julianszw/effective-java-kata) (repo aparte; en local vive en `books/`, ignorado por git)
+More chapters will be added as the study path grows.
 
-Todos requieren JDK 21 y Maven (`mvn compile`).
+## Related
+
+- [`effective-java-kata`](https://github.com/julianszw/effective-java-kata): a separate repo with *Effective Java* items, examples and tests.
+
+## Build
+
+Requires JDK 21 and Maven. From the repo root:
+
+```bash
+mvn compile
+```
+
+Each chapter is a Maven module and can also be built on its own from its folder.
