@@ -1,0 +1,10 @@
+books/
+out/
+target/
+__pycache__/
+*.pyc
+*.iml
+.idea/
+.vscode/
+*.class
+.DS_Store
